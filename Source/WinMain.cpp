@@ -22,7 +22,7 @@ INT WINAPI WinMain(_In_ HINSTANCE hInstance, _In_opt_ HINSTANCE hPrevInstance, _
 	wc.lpszClassName = CLASS_NAME;
 	wc.hCursor = LoadCursor(NULL, IDC_ARROW);
 	RegisterClass(&wc);
-	HWND hwnd = CreateWindow(CLASS_NAME, "DirectX Alpha Blending Test by Rubin", WS_OVERLAPPEDWINDOW, CW_USEDEFAULT, CW_USEDEFAULT, 1600, 900, NULL, NULL, hInstance, NULL);
+	HWND hwnd = CreateWindow(CLASS_NAME, "DirectX Alpha Blending Test by Rubin", WS_OVERLAPPEDWINDOW, CW_USEDEFAULT, CW_USEDEFAULT, 1280, 720, NULL, NULL, hInstance, NULL);
 
 	if (FAILED(InitD3D(hwnd)))
 	{
