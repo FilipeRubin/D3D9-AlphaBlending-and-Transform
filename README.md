@@ -1,4 +1,4 @@
-# D3D9-Alpha-Blending-and-Transform
+# D3D9 alpha blending and transform
 Just a simple project to test my knowledge on alpha blending and matrix transformations.
 
 # How to run and compile
